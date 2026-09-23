@@ -45,4 +45,4 @@ In a production application the mock would be removed and the same frontend requ
 
 ## Assumptions
 
-The member arrives with 1–4 books already selected, so changing the cart or address is outside this page's scope. The provided endpoint only requires book IDs, so the saved address is displayed for confirmation but is not included in the request body.
+The member arrives with 1 to 4 books already selected, so changing the cart or address is outside this page's scope. The provided endpoint only requires book IDs, so the saved address is displayed for confirmation but is not included in the request body.
