@@ -1,6 +1,6 @@
 # Book of the Month Checkout
 
-A small React + TypeScript implementation of the checkout exercise. It displays 1 to 4 selected books, calculates the order total, shows the member's saved shipping address, and submits the selected book IDs to the supplied `POST /api/checkout` contract.
+A React + TypeScript implementation of a checkout page. It displays 1 to 4 selected books, calculates the order total, shows the member's saved shipping address, and submits the selected book IDs to the supplied `POST /api/checkout` contract.
 
 ## Run locally
 
