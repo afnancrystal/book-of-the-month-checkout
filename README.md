@@ -1,6 +1,6 @@
 # Book of the Month Checkout
 
-A small React + TypeScript implementation of the checkout exercise. It displays 1–4 selected books, calculates the order total, shows the member's saved shipping address, and submits the selected book IDs to the supplied `POST /api/checkout` contract.
+A small React + TypeScript implementation of the checkout exercise. It displays 1 to 4 selected books, calculates the order total, shows the member's saved shipping address, and submits the selected book IDs to the supplied `POST /api/checkout` contract.
 
 ## Run locally
 
@@ -45,4 +45,4 @@ In a production application the mock would be removed and the same frontend requ
 
 ## Assumptions
 
-The member arrives with 1–4 books already selected, so changing the cart or address is outside this page's scope. The provided endpoint only requires book IDs, so the saved address is displayed for confirmation but is not included in the request body.
+The member arrives with 1 to 4 books already selected, so changing the cart or address is outside this page's scope. The provided endpoint only requires book IDs, so the saved address is displayed for confirmation but is not included in the request body.
